@@ -11,7 +11,7 @@
 ### Attendance
 ![doctor snap]   (https://github.com/JVGrace/Capstone_VIT-UMS/static/screenshots/attendance.png?raw=true)
 ### Teacher Dashboard
-![doctor snap]   (https://github.com/JVGrace/Capstone_VIT-UMS/static/screenshots/teacher.png?raw=true)
+![doctor snap]  (https://github.com/JVGrace/Capstone_VIT-UMS/blob/95bccb2514f7f27bcb0a10b5fafcc4edea72e206/static/screenshots/teacher.png)
 ---
 
 ## Functions
