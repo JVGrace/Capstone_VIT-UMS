@@ -3,15 +3,15 @@
 ---
 ## screenshots
 ### Homepage
-![homepage snap] (https://github.com/JVGrace/Capstone_VIT-UMS/static/screenshots/homepage.png?raw=true)
+![homepage snap] (https://github.com/JVGrace/Capstone_VIT-UMS/blob/static/screenshots/homepage.png?raw=true)
 ### Admin Dashboard
-![dashboard snap](https://github.com/JVGrace/Capstone_VIT-UMS/static/screenshots/adminhomepage.png?raw=true)
+![dashboard snap](https://github.com/JVGrace/Capstone_VIT-UMS/blob/static/screenshots/adminhomepage.png?raw=true)
 ### Admin Manage Teacher
-![invoice snap]  (https://github.com/JVGrace/Capstone_VIT-UMS/static/screenshots/adminteacher.png?raw=true)
+![invoice snap]  (https://github.com/JVGrace/Capstone_VIT-UMS/blob/static/screenshots/adminteacher.png?raw=true)
 ### Attendance
-![doctor snap]   (https://github.com/JVGrace/Capstone_VIT-UMS/static/screenshots/attendance.png?raw=true)
+![doctor snap]   (https://github.com/JVGrace/Capstone_VIT-UMS/blob/static/screenshots/attendance.png?raw=true)
 ### Teacher Dashboard
-![doctor snap]  (https://github.com/JVGrace/Capstone_VIT-UMS/blob/95bccb2514f7f27bcb0a10b5fafcc4edea72e206/static/screenshots/teacher.png)
+![doctor snap]  (https://github.com/JVGrace/Capstone_VIT-UMS/blob/static/screenshots/teacher.png)
 ---
 
 ## Functions
