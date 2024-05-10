@@ -1,0 +1,111 @@
+{% extends 'school/teacherbase.html' %}
+{% block content %}
+
+<head>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <style media="screen">
+    a:link {
+      text-decoration: none;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    h6 {
+      text-align: center;
+    }
+
+    .row {
+      margin: 100px;
+    }
+  </style>
+
+</head>
+<div class="container">
+
+  <div class="row">
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h6 class="panel-title">Attendance</h6>
+
+      </div>
+
+      <table class="table table-hover" id="dev-table">
+        <thead>
+
+          <tr>
+            <th>Class Name</th>
+            <th>Take Attendance</th>
+            <th>View Attendance</th>
+          </tr>
+        </thead>
+
+        <tr>
+          <td> CS</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'CS'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'CS'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Data Science</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'Data Science'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'Data Science'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Computer Architechure</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'Computer Architechure'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'Computer Architechure'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> HTML5 Gaming</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'HTML5 Gaming'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'HTML5 Gaming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Game Development</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'Game Development'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'Game Development'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Game Design</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'Game Design'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'Game Design'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> IOT in Gaming</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'IOT in Gaming'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'IOT in Gaming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> VR & AR in Gaming</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'VR & AR in Gaming'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'VR & AR in Gaming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Competative Programming</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'Competative Programming'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'Competative Programming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Programming with Python</td>
+          <td><a class="btn btn-primary btn-xs" href="{% url 'teacher-take-attendance' 'Programming with Python'  %}"><span class="glyphicon glyphicon-plus"></span></a></td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'teacher-view-attendance' 'Programming with Python'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock content %}

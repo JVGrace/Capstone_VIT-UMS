@@ -1,0 +1,116 @@
+{% extends 'school/adminbase.html' %}
+
+
+
+{% block content %}
+
+<head>
+
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <style media="screen">
+    a:link {
+      text-decoration: none;
+    }
+
+    h6 {
+      text-align: center;
+    }
+
+    .row {
+      margin: 100px;
+    }
+  </style>
+
+</head>
+
+
+
+
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h6 class="panel-title">FEE OF STUDENTS</h6>
+
+      </div>
+
+      <table class="table table-hover" id="dev-table">
+        <thead>
+
+          <tr>
+            <th>Class Name</th>
+
+            <th>View Dues</th>
+          </tr>
+        </thead>
+
+        <tr>
+          <td>CS</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'CS'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Data Science</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'Data Science'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Computer Architechure</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'Computer Architechure'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> HTML5 Gaming</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'HTML5 Gaming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Game Development</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'Game Development'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Game Design</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'Game Design'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> IOT in Gaming</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'IOT in Gaming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> VR & AR in Gaming</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'VR & AR in Gaming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Competative Programming</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'Competative Programming'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+        <tr>
+          <td> Programming with Python</td>
+          <td><a class="btn btn-danger btn-xs" href="{% url 'admin-view-fee' 'Programming with Python'  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        </tr>
+
+      </table>
+    </div>
+
+
+  </div>
+</div>
+
+<!--
+      written By : Pradumn
+      -->
+
+
+
+{% endblock content %}
