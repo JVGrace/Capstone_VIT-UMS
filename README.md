@@ -1,5 +1,7 @@
-# VIT Bhopal - UML
-# Capstone Group Project
+# VIT Bhopal VTOP2.0 - UMS
+# Capstone Group Project:
+Akshat Singh (20BCG10017)   Varun Chaturvedi (20BCG10040)   Siddharth Dwivedi (20BCG10043)
+Pradumn Patel (20BCG10049)  Kshitij Patel (20BCG10059)
 ---
 ## screenshots
 ### Homepage
